@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project builds a DNA sequence classification pipeline using public sequence datasets, with a focus on end-to-end workflow quality: cleaning, feature engineering, exploratory analysis, and baseline modeling.
+This project currently builds a DNA sequence classification pipeline using public sequence datasets, with a focus on end-to-end workflow quality: cleaning, feature engineering, exploratory analysis, and baseline modeling.
 
 ## Research Question
 
@@ -104,8 +104,6 @@ This project uses two public Kaggle datasets as analogs for bioprocess telemetry
 
 ## How to Run
 
-1. Install dependencies including `kagglehub` (for example: `pip install kagglehub pandas numpy seaborn matplotlib scikit-learn`).
-2. Ensure Kaggle credentials are configured in your environment.
-3. Open `notebooks/module23_eda_baseline.ipynb`.
-4. Run all notebook cells; the notebook downloads both datasets using `kagglehub.dataset_download(...)`.
-5. If `kagglehub` is unavailable, use the manual local path fallback in the first setup cell.
+1. Open `notebooks/module23_eda_baseline.ipynb`.
+2. Run all notebook cells; the notebook downloads both datasets
+3. For fallback use the manual local path in the first setup cell.
